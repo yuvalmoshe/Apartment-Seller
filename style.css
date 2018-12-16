@@ -9,6 +9,7 @@ body{
 #search{
     margin: 20px;
 }
+      
 
 input{
     margin: 5px;
@@ -64,20 +65,26 @@ label{
 }
 
 .result{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: grid;
-    grid-template-columns: 350px 90px 280px;
+    grid-template-columns: 400px;
     grid-template-areas: 
-    "i la a"
-    "i lpr p"
-    "i lr r"
-    "i lpark park";
+    "i a"
+    "i p"
+    "i r"
+    "i lpr"
+    "i la"
+    "i lr"
+    "i lr"
+    "i lr";
     box-shadow: 1px 1px 3px #0a1612;
     margin: 20px;
     padding: 20px;
     margin-top: 50px;
     background-color: #443729;
     align-items: center;
+    font-size: 18px;
+    
 }
 
 .check-group{
@@ -101,7 +108,7 @@ button{
 
 button:focus {outline:0;}
 
-button:active{background-color: #443729;}
+button:active{background-color: #44293b;}
 
 .result>img{
     max-width: 325px;
@@ -159,3 +166,26 @@ button:active{background-color: #443729;}
     border-radius: 5px;
     font-family: 'Raleway', sans-serif;
 }
+/* 
+.box {
+-webkit-transition-property: width height background-color font-size left top;
+-webkit-transition-duration: 2s;
+-webkit-transition-delay: 1s;
+-webkit-transition-timing-function: linear;
+transition-property: width height background-color font-size left top;
+transition-duration: 2s;
+transition-delay: 1s;
+transition-timing-function: linear;
+}
+
+
+.box1 {
+    -webkit-transition-property: width height background-color font-size left top;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-delay: 1s;
+    -webkit-transition-timing-function: linear;
+    transition-property: width height background-color font-size left top;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+    } */
